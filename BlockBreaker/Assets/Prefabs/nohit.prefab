@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 61564176746185660}
   - component: {fileID: 114326437461411646}
   m_Layer: 0
-  m_Name: 2 hits
-  m_TagString: Breakable
+  m_Name: nohit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000231264271694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.94, y: 3.4, z: 0}
+  m_LocalPosition: {x: -2.96, y: 1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,9 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39fa88d535f8403419f3b010017510d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300008, guid: fbf8a47266034ba44850d4a620df9bc6, type: 3}
-  crack: {fileID: 8300000, guid: 361d1cc0e0f3ff342915158bd57c43c1, type: 3}
+  hitSprites: []
 --- !u!212 &212942590417737468
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -116,8 +114,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300006, guid: fbf8a47266034ba44850d4a620df9bc6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: fbf8a47266034ba44850d4a620df9bc6, type: 3}
+  m_Color: {r: 0.38679248, g: 0.36307406, b: 0.36307406, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
