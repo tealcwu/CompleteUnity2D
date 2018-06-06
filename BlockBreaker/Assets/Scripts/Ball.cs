@@ -37,9 +37,16 @@ public class Ball : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        Vector2 tweak = new Vector2(Random.Range(0.1f, 0.5f), Random.Range(0.2f, 1.0f));
+
         if(hasStarted)
         {
-            //audio.Play();
+            if(collision.gameObject.CompareTag("Paddle"))
+            {
+                audio.Play();
+            }
+
+            rb2d.velocity += tweak;
         }
     }
 }
